@@ -1,7 +1,8 @@
 {
-  "version": "1.3.2",
-  "packageUrl": "https://github.com/libro950122/starbox/releases/download/v1.3.2/starbox-update-1.3.2.zip",
-  "sha256": "0c0a481ea71a37af2323768eb872f17e7d120af78fd926b11e728b06cc0c365b",
+  "schemaVersion": 2,
+  "version": "1.3.3",
+  "packageUrl": "https://github.com/libro950122/starbox/releases/download/v1.3.3/starbox-update-1.3.3.zip",
+  "sha256": "e21fc6153e7b74e7ac41647b347494fbc07d8142cb23b26852b2a4a9871a5549",
   "requiresRestart": true,
   "files": [
     "plugins/core-plugin/beautify-runtime.js",
@@ -44,9 +45,19 @@
     "resources/preload.js",
     "StarBox.exe"
   ],
-  "notes": [
-    "修复问题",
-    "优化体验"
+  "deleteFiles": [
+    "plugins/core-plugin/beautify-runtime.js.bak",
+    "plugins/core-plugin/interface-page.js.bak",
+    "resources/core.dll.old"
   ],
-  "publishedAt": "2026-06-13T13:11:26Z"
+  "deleteDirs": [
+    
+  ],
+  "notes": [
+    "Fix issues",
+    "Improve experience"
+  ],
+  "publishedAt": "2026-06-13T13:39:14Z",
+  "signedPayload": "eyJ2ZXJzaW9uIjoiMS4zLjMiLCJwYWNrYWdlVXJsIjoiaHR0cHM6Ly9naXRodWIuY29tL2xpYnJvOTUwMTIyL3N0YXJib3gvcmVsZWFzZXMvZG93bmxvYWQvdjEuMy4zL3N0YXJib3gtdXBkYXRlLTEuMy4zLnppcCIsInNoYTI1NiI6ImUyMWZjNjE1M2U3Yjc0ZTdhYzQxNjQ3YjM0NzQ5NGZiYzA3ZDgxNDJjYjIzYjI2ODUyYjJhNGE5ODcxYTU1NDkiLCJyZXF1aXJlc1Jlc3RhcnQiOnRydWUsImZpbGVzIjpbInBsdWdpbnMvY29yZS1wbHVnaW4vYmVhdXRpZnktcnVudGltZS5qcyIsInBsdWdpbnMvY29yZS1wbHVnaW4vYmVhdXRpZnktcnVudGltZS5qcy5iYWsiLCJwbHVnaW5zL2NvcmUtcGx1Z2luL2J1aWxkLWNzcy5wczEiLCJwbHVnaW5zL2NvcmUtcGx1Z2luL2N1cnNvci1wYWNrLmpzIiwicGx1Z2lucy9jb3JlLXBsdWdpbi9pbmRleC5jc3MiLCJwbHVnaW5zL2NvcmUtcGx1Z2luL2luZGV4LmpzIiwicGx1Z2lucy9jb3JlLXBsdWdpbi9pbnRlcmZhY2UtcGFnZS5qcyIsInBsdWdpbnMvY29yZS1wbHVnaW4vaW50ZXJmYWNlLXBhZ2UuanMuYmFrIiwicGx1Z2lucy9jb3JlLXBsdWdpbi9tYXloZW0vc3JjL2FuYWx5c2lzLmpzIiwicGx1Z2lucy9jb3JlLXBsdWdpbi9tYXloZW0vc3JjL2Fzc2V0cy9hcmFtLnN2ZyIsInBsdWdpbnMvY29yZS1wbHVnaW4vbWF5aGVtL3NyYy9hc3NldHMvc3R5bGVzLmpzIiwicGx1Z2lucy9jb3JlLXBsdWdpbi9tYXloZW0vc3JjL2NhY2hlLmpzIiwicGx1Z2lucy9jb3JlLXBsdWdpbi9tYXloZW0vc3JjL2NvbmZpZy5qcyIsInBsdWdpbnMvY29yZS1wbHVnaW4vbWF5aGVtL3NyYy9sY3UuanMiLCJwbHVnaW5zL2NvcmUtcGx1Z2luL21heWhlbS9zcmMvdWkvYXVnbWVudHMuanMiLCJwbHVnaW5zL2NvcmUtcGx1Z2luL21heWhlbS9zcmMvdWkvaW52ZXN0aWdhdG9yLmpzIiwicGx1Z2lucy9jb3JlLXBsdWdpbi9tYXloZW0vc3JjL3VpL2l0ZW1zLmpzIiwicGx1Z2lucy9jb3JlLXBsdWdpbi9tYXloZW0vc3JjL3VpL21hdGNoVmlldy5qcyIsInBsdWdpbnMvY29yZS1wbHVnaW4vbWF5aGVtL3NyYy91aS9tb2RhbC5qcyIsInBsdWdpbnMvY29yZS1wbHVnaW4vbWF5aGVtL3NyYy91aS9wYXRjaEZpbHRlci5qcyIsInBsdWdpbnMvY29yZS1wbHVnaW4vbWF5aGVtL3NyYy91aS9zZXR0aW5ncy5qcyIsInBsdWdpbnMvY29yZS1wbHVnaW4vbWF5aGVtL3NyYy91aS90YWJsZS5qcyIsInBsdWdpbnMvY29yZS1wbHVnaW4vbWF5aGVtL3NyYy91aS90YWJzLmpzIiwicGx1Z2lucy9jb3JlLXBsdWdpbi9tYXloZW0vc3RhcmJveC1lbnRyeS5qcyIsInBsdWdpbnMvY29yZS1wbHVnaW4vc3R5bGVzL2NvbnRyb2xzLmNzcyIsInBsdWdpbnMvY29yZS1wbHVnaW4vc3R5bGVzL2N1cnNvci5jc3MiLCJwbHVnaW5zL2NvcmUtcGx1Z2luL3N0eWxlcy9mZWF0dXJlcy5jc3MiLCJwbHVnaW5zL2NvcmUtcGx1Z2luL3N0eWxlcy9nZW5lcmF0ZWQtYmFzZS5jc3MiLCJwbHVnaW5zL2NvcmUtcGx1Z2luL3N0eWxlcy9pbnRlcmZhY2UuY3NzIiwicGx1Z2lucy9jb3JlLXBsdWdpbi9zdHlsZXMvbGF5ZXJzLmNzcyIsInBsdWdpbnMvY29yZS1wbHVnaW4vc3R5bGVzL21heWhlbS5jc3MiLCJwbHVnaW5zL2NvcmUtcGx1Z2luL3N0eWxlcy9zaGVsbC5jc3MiLCJwbHVnaW5zL2NvcmUtcGx1Z2luL3N0eWxlcy90b2tlbnMuY3NzIiwicmVzb3VyY2VzL2NvcmUuZGxsIiwicmVzb3VyY2VzL2NvcmUuZGxsLm9sZCIsInJlc291cmNlcy9kYXRhc3RvcmUiLCJyZXNvdXJjZXMvaWNvbi5pY28iLCJyZXNvdXJjZXMvcHJlbG9hZC5qcyIsIlN0YXJCb3guZXhlIl0sImRlbGV0ZUZpbGVzIjpbInBsdWdpbnMvY29yZS1wbHVnaW4vYmVhdXRpZnktcnVudGltZS5qcy5iYWsiLCJwbHVnaW5zL2NvcmUtcGx1Z2luL2ludGVyZmFjZS1wYWdlLmpzLmJhayIsInJlc291cmNlcy9jb3JlLmRsbC5vbGQiXSwiZGVsZXRlRGlycyI6W10sIm5vdGVzIjpbIkZpeCBpc3N1ZXMiLCJJbXByb3ZlIGV4cGVyaWVuY2UiXSwicHVibGlzaGVkQXQiOiIyMDI2LTA2LTEzVDEzOjM5OjE0WiJ9",
+  "signature": "KpG45-RU54iHD-ARhErDNjTiCyHcHRxDPLrNAc5ljclsNhBCjrbwqILUSSuP7y1PyczdwB6F8lqsQSovv2-EDw"
 }
